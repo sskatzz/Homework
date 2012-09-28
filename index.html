@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Week2_HomeworkNotes</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="author" content="The Chopping Block, Inc." />
+	<meta name="geo.country" content="US" />
+	<meta name="dc.language" content="en" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8" />
+	
+	<style type="text/css" media="screen">		
+		/*local styles if any (quick tests and local only overrides)*/
+	</style>
+</head>
+<body>
+
+	<div class="wrap" >
+		Project: Week2_HomeworkNotes
+		Project: JavascriptRockPaperScissors
+		<ul>
+		<li>1) You have to choose your weapon Probably show the 3 images, and then when one is clicked on, it is selected Store in a variable which one they clicked.</li>
+		<li>2) The computer needs to choose one randomRange for that</li>
+		<li>3) Show which one the computer chose</li>
+		<li>4) Show who won (Just some text is fine)</li>
+		</ul>
+		
+	
+	</div>
+	
+	<div class= "wrap">
+		
+		<img id="rock" src= images/rock.jpg>
+		<img id="paper" src= images/paper.jpg>
+		<img id="scissors" src= images/scissors.jpg>
+			<script type="text/javascript" charset="utf-8">
+			
+				var rock_image = document.getElementById('rock');
+			image.src = "images/rock.jpg"
+			var paper_image = document.getElementById('paper');
+		image.src = "images/paper.jpg"
+		var scissors_image = document.getElementById('scissors');
+	image.src = "images/scissors.jpg"
+
+
+		var rock_image.onclick = function(click){
+		
+		
+		
+	}
+		
+			
+			</script>
+		
+		
+	</div>
+	<script type="text/javascript" charset="utf-8">
+		
+		
+		var image = document.getElementById('image_1');
+		//Changing the src property allows you to change what image appears on the screen.
+		image.src = "images/image.jpg";
+		
+		//Boolean logic
+		// && means AND
+		// Both sides of the equation have to be true
+ 		
+		if(computer == "rock" && user == "paper"){
+			console.log("User won")
+			
+		}
+
+		// || means OR
+		// One or the other side must be true, or both are true
+
+		 
+		if(computer == "rock" || user == "paper"){
+			console.log("User won")
+
+		}
+		
+		
+		// returns a random number between the two limits provided 
+		// Returns a Random Number min <= results < max
+		function randomRange(min, max)
+		{
+			return (Math.floor((Math.random()*(max-min)) + min)); 
+		}
+		
+
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
